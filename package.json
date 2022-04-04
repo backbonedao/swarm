@@ -1,5 +1,5 @@
 {
-  "name": "swarm",
+  "name": "@backbonedao/swarm",
   "version": "3.0.3",
   "description": "core/swarm",
   "dependencies": {
