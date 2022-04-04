@@ -1,9 +1,9 @@
 {
-  "name": "hyperswarm",
+  "name": "swarm",
   "version": "3.0.3",
-  "description": "A distributed networking stack for connecting peers",
+  "description": "core/swarm",
   "dependencies": {
-    "@hyperswarm/dht": "next",
+    "@hyperswarm/dht": "github:backbonedao/dht",
     "b4a": "^1.3.1",
     "events": "^3.3.0",
     "shuffled-priority-queue": "^2.1.0"
@@ -20,16 +20,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperswarm/hyperswarm.git"
+    "url": "https://github.com/backbonedao/swarm.git"
   },
-  "author": "Mathias Buus (@mafintosh)",
   "contributors": [
+    "BackboneDAO (@backbonedao)",
+    "Mathias Buus (@mafintosh)",
     "David Mark Clements (@davidmarkclem)",
     "Andrew Osheroff (@andrewosh)"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hyperswarm/hyperswarm/issues"
+    "url": "https://github.com/backbonedao/swarm/issues"
   },
-  "homepage": "https://github.com/hyperswarm/hyperswarm"
+  "homepage": "https://github.com/backbonedao/swarm"
 }
